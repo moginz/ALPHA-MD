@@ -7,11 +7,11 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || 'keith',
+module.exports = { session: process.env.SESSION_ID || 'ALPHA;;;H4sIAAAAAAAAA61V666qRhR+lWb+6jlyHzA5SRFFUVEUULBpmgGGy5abMIp4sh+iT9A36TP1ERp07+zTnEt3k/JrMsx861trfeubzyAvkhovcAuGn0FZJRdEcLckbYnBEIzOYYgr0AcBIggMwXrq2IzteFfbmG3TibRJFLzJ3OYgZmVkrdTz6lQx2nbS2xefwHMflGcvTfwfAEprOWjEDVG5oMyMEl6oQtuLy8YcU/T+SnnRFF73shFTVAfYIaKkSvJoUsY4wxVKF7g1UFK9j74/i7YL1KSz+XTEp8d24+VWrKipuPSTsDBWjDBAi9y60Wz9PvqrFLXjattbTeHMG4xrD83ZwyQV2qzZbvNs3YMnL7LdbJDrD/p1EuU40AKck4S07657b3nwbsvV6kDQVBxcc922TteNLsjmnmPcaepqlS+k+sZw3kk8HCkbm9kOStO5BFlGsZYkUapLmTbjCkulmvd20aIUGOb2D+JG9aqV43+p+1TnesHMnSJJp2KSu5DJ+EaOo7UWThK1dM7+mZ6TchRRm/fR18/mRqlnJS/EhRlZk6fFjj8fRG1zavyTZTZH76YQ6jpSn9w3+oicqx+xDBWdM52FtnJIJsyZ3UXaSwsp9lfYSiLKhtVhYRYFOrTwZE8y+jKoltFJJLcq4ttsdLoqU0fJZ9aoLefXVEWcABVjHH26Z3TErRaAIf3cBxWOkppUiCRFft+j+wAFFxP7FSb36oLDGFpMri/dy8VbWedADWTHm6b7q7/2mxlkbV4fG6UmUPnkE+iDsip8XNc4mCU1KapWx3WNIlyD4S/3RnU5VzgrCJ4nARgChmUZQRCgwPDiz/XHJkakRmX5MccE9EFYFZmOwZBUZ9wH9wssVCZQVDhGZCVIS2NaElh2MpEUmWZVmpO6DLNHUCvJcE1QVoIhDTlG4mleZJ/7/w+PMc2pqioxvAhVEUqKyjOUwEBZZVRIi+rkxzwk5vnXPsjxlTxk3BWfZfogTKqa2Pm5TAsUvGr89Sfy/eKcE7PNfaVb4AoM6bdtTEiSR3WX2TlHlR8nF6x0eYBhiNIaP/dBgC+Jjzs84DQI/gazaCObE30Sw1UGR4LcdTAu8scRRoQIM3z4IeA5+IGjROGDxCLvA4MEnqIpSpR8BnTleDhId+e7gr5Fs6PEWZcrpHaGxcm98tr2cJpHR/0uyocScYWD1yp7yD+eS6s44vwHuNfZfmCHo+Jm+8Z+nXJ6cBNO8xgt5vYXuA+Fg+HnN9dWiqDD00WJ3ck8D7pudXG+UsOQ+1oPOeoOg8XH3U9LW1G0v/74/c8u2ksrOpwAE5SkNRgCZWVqy+2YP2nMYBRHI02WC1n+1E3La+teHeExcg7fW83jOOfnSuVDLp+vJWYFrUsbV2SbHPZmtTxve85earRvgYAhMGhvTFovvVFbCk7c68lrjOl0M1I5ye8pCz1Le1vLRnCa5QdXOrgxfUoWIZL5csvhw07ZGU4rLHeziNXhQnIujbgtleZO+SGhL4MN5rok01trsNBu8lPR3PZjxrgJBXEhq63DtTGS8HjWBIG8zHc9p1nrB23JtZrgFQvllBnz5ZOzGS3dwNEbapDWT+tUGr141d0r05c3KnmxkYfgwgTfLf+lF//WsjfpU8/9LyBe3pDvyGu064VPpuseeubmxK5789a6BE+YgmKBoO1mu+OphccwpS++Ap67mS5TRMKiysAQoDyoiiQAfZCimshv0/sNQ+DFPshauSxNgsjr0AO5++bWDjz/DY9qLLgeCQAA',
     PREFIXE: process.env.PREFIX || "+",
     GITHUB : process.env.GITHUB|| 'https://github.com/Keithkeizzah/ALPHA-MD',
     OWNER_NAME : process.env.OWNER_NAME || "Keith",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || "254748387615",  
+    NUMERO_OWNER : process.env.NUMERO_OWNER || "233266676258",  
     CHATBOT : process.env.CHATBOT || "no",  
     CHATBOT_INBOX : process.env.CHATBOT_INBOX || "yes",                     
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "non",
